@@ -12,6 +12,10 @@ const App = () => {
 	const [borderBoy, setBorderBoy] = useState(false);
 	const [borderGirl, setBorderGirl] = useState(false);
 
+	const elif=()=>{
+		return 'elif'
+	}
+
 	const filterGirls = () => {
 		setNames(allNames.filter((name) => name.sex === 'f'));
 		setBorderGirl(true);
